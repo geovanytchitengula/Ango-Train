@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*Nav*/
+.nav{
+   background-color: rgb(95, 9, 9);
+    
+   justify-content: space-between
+    ;
+   
+}
+.texto_img{
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+   align-items: center;
+    left: 0;
+    transform: translateY(-50%);
+}
+.text, .text1, .text2{
+    color: aliceblue;
+    position: relative;
+    display: flex;
+}
+
+/*Formulario*/
+.lista{
+    justify-content: center;
+position: relative;
+ 
+  display: flex; 
+width: 100%;
+margin: 0;
+padding: 0;
+pointer-events: all;
+box-shadow: 0 4px 8px rgb(19 41 104 / 10%);
+border-radius: 8px;
+margin-bottom: 24px;
+padding-bottom: 16px;
+background: linear-gradient(180deg,#080e1f 0,#080e1f 45%,#461117 46%,#5e1821 49%,#181733);
+margin: -6rem auto 0;
+ 
+
+}
+ .list{
+  
+list-style: none;
+
+}
+/* container*/
+.cont{
+    background: linear-gradient(180deg,#080e1f 0,#080e1f 45%,#461117 46%,#5e1821 49%,#181733);
+    
+}
+.container-filho{
+      margin-bottom: 44px;
+}
+.corpo{
+    display: flex;
+   list-style: none;
+}
+.corp{
+  flex-wrap: wrap;
+  justify-content: space-between;  
+}
+.corp-img{
+    margin-left: 18px;
+}
+
+.destinos{
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 350px;
+}
+
+/*Promo*/
+.promo-pai{
+    background-color: rgb(55, 27, 180);  
+    margin-bottom: -90px; 
+  
+     
+}
+.promo{
+   
+}
+.promo-img  {      
+     max-width:  100%;     
+    background: rgba(0,0,0,.42);
+    }
+    .promo-letra-h {
+       
+        top: -25em;
+        left: 20%;
+        display: inline-block;
+        position: relative;
+        
+        
+    }
+    .promo-letra-h-p{
+      text-align: center;
+    }
+      
+    
+.hr{background-color: #461111;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+.footer{background: rgb(180, 27, 27) ;padding-bottom: 130px;}
