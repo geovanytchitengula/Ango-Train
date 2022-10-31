@@ -1,0 +1,245 @@
+.nav{
+  
+    background-color: rgb(95, 9, 9);
+     color: #f5f5f5;
+    justify-content: center
+     ;
+     padding-bottom: 96px;
+ }
+ .nav-item a{
+      color: #f5f5f5;
+      background-color: #4d0000;
+ }
+ .nav-item a:hover{
+      color: #7e0400;
+      background-color: #181733;
+      transform: scale(1.1);
+      box-shadow: rgba(114, 31, 6, 0.4) 0px 0.28rem 0.890rem 0px;
+  
+ }
+ /*Formulario*/
+.lista{
+    justify-content: center;
+position: relative;
+ background-color: #ffffff;
+  display: flex; 
+width: 100%;
+margin: 0;
+padding: 0;
+pointer-events: all;
+box-shadow: 0 4px 8px rgb(19 41 104 / 10%);
+border-radius: 8px;
+margin-bottom: 24px;
+padding-bottom: 16px;
+ margin: -6rem auto 0;
+ 
+
+}
+
+ .list{
+
+list-style: none;
+z-index: 1;
+}
+
+.form{
+display: block;
+width: 100%;
+padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+-moz-padding-start: calc(0.75rem - 3px);
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #930d0d;
+background-color: #24262b;
+ background-repeat: no-repeat;
+background-position: right 0.75rem center;
+background-size: 16px 12px;
+border: 1px solid #88929c;
+border-radius: 0.375rem;
+transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+ 
+}
+    .vi-cla{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+    .viagem{
+        background-color: #461111;
+        margin-left: 19px;
+    }
+ 
+.classe{
+  margin-left: 50px;
+    background-color: #181733;
+}
+.coll{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+/*Pesquisa*/
+.class {
+    justify-content: center;
+    display: flex;
+}
+.economica{
+    margin-left: 35px;
+}
+.p-classe{
+    margin-left: 35px;
+}
+.execut{
+    margin-left: 35px;
+}
+.Partida{
+    margin-left: -10;
+    
+}
+.chegada {
+    margin-left: 33px;
+}
+.resto{
+    display: flex;
+    background-color: rgb(95 9 9);;
+    justify-content: center;
+    width: 53%;
+    margin-left: 24%;
+    margin-bottom: 20px;
+    color: #e5e5e5;
+}
+.hora-partida {
+    margin-left: 29em;
+}
+.local-partida {
+    margin-left: -281px;
+}
+.local-Ida {
+    margin-left: 112px;
+}
+.preco{
+        margin-left: 17px;
+   
+}
+.traco1 {
+    margin-left: 14px;
+     margin-top: -16px; 
+}
+.traco2 {
+    margin-left: 14px;
+     margin-top: -16px; 
+}
+.button {
+    margin-top: 64px;
+    margin-right: -1px;
+    margin-bottom: 7px;;
+}
+.a{
+text-decoration: none
+;
+color: #343a40;}
+
+.economica, .p-classe, .execut{
+    list-style: none
+    ;
+    text-decoration: none;
+}
+.btn{
+    background-color: #24262b;
+    border-color: black;
+    color: #fff;
+}
+.classe{
+    list-style: none;
+    text-decoration: 
+    underline;
+    background-color: #24262b;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+
+/*Footer*/
+.footer{
+    background-color: rgb(136, 20, 0);
+  
+    justify-content: space-around;
+    padding: 55px calc((100% - 969px)/2);
+}
+.row>* {
+    flex-shrink: 0;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+.footer_copyright, .footer_logo{
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.roww{
+	display: flex;
+	
+}
+ul{
+	list-style: none;
+}
+.footer{
+    background-color: rgb(95, 9, 9);
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #750a2e;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .reclamacoes a{
+
+	transition: all 0.5s ease;
+}
+.footer-col .reclamacoes a:hover{
+	color: #24262b;
+	transform: scale(1.1);
+}

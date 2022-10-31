@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ango-Train</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</head>
+<body>
+    <header>
+        
+ <nav>
+<div>
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="index.html" >Inicio</a>
+    </li>
+    <li class="nav-item dropdown ">
+      <a class="nav-link  r" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Destinos</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Inicio</a></li>
+        <li><a class="dropdown-item" href="#">Destinos</a></li>
+        <li><a class="dropdown-item" href="#">Reservas</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Contactos</a></li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " data-bs-toggle="dropdown" class="nav-link" href="#">Reservas</a>
+      
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " data-bs-toggle="dropdown" href="#" class="nav-link ">Horarios</a>
+     
+      
+    <li class="nav-item">
+      <a class="nav-link " data-bs-toggle="dropdown" href="#" class="nav-link ">Contactos</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Inicio</a></li>
+        <li><a class="dropdown-item" href="#">Destinos</a></li>
+        <li><a class="dropdown-item" href="#">Reservas</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Contactos</a></li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " data-bs-toggle="dropdown" class="nav-link" href="#">Quem Somos</a>
+    </div>      
+        </nav>
+    </header> 
+
+            
+                <!-- Form -->
+                
+      <div class="lista" id="lista">
+        <div class="list">
+          <form class="form ">
+            <fieldset class="row mb-3">
+              <div class="vi-cla">
+              <div class="viagem">
+              <select class="form" id="form-select" aria-label="Default select example">
+                <div class="ida">
+                <option value="1" id="">Ida</option>
+              </div>
+              <div class="volta">
+                <option value="2">ida & Volta</option>
+               </div>
+              </select>
+              </div>
+
+              <div class="classe" id="classe">
+             
+                </div>
+                </div>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control u" placeholder="Origem" aria-label="First name" list="">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control u" placeholder="Destino" aria-label="Last name">
+              </div>
+            <div class="col">
+              <input type="date" class="form-control u" placeholder="Data" aria-label="Last name" value="2022-10-24">
+            </div>
+            <div class="col"> 
+              <select class="form" >
+              <option value="Adulto">Passageiros</option>
+              </select>
+            </div>
+            <div>
+            <div class="coll">
+              <button type="button" class="btn btn-danger">Pesquisar</button>
+            </div>
+          </div>
+            </div>
+            </div>
+          </div>  
+        
+         
+            </div>
+           </fieldset>
+          </form>
+<!--grid-->
+<div class="class" id="class">
+<div class="economica"><a href=""><p class="classe"> economica </p></a></div>
+<div class="p-classe"><a href=""><p class="classe"> 1º classe </p></a></div>
+<div class="execut"><a href=""><p class="classe"> Executivo </p></a></div>
+</div>
+<a href="" class="a">
+  <div class="resto" style=";">
+  
+<div class="Partida"><p> 17:55 </p></div>
+<div class="traco1"><p></p>-------</div>
+<div class="chegada"><p> 2:00h</p></div>
+<div class="traco2"><p></p>-------</div>
+<div class="preco"><p>19:55</p></div>
+<div class="local-partida"><br> <p> Luanda </p></div>
+<div class="local-Ida"><br>  <p> Benguela </p></div>
+<div class="hora-partida"><p> KWZ 19.500<br> </p></div>
+<div class="button">
+<button type="button" class="btn btn-info">Reservar</button></div>
+</div></div>
+
+<div class="class" id="class">
+  <div class="economica"><p class="class-p">  </p></div>
+  <div class="p-classe"><p class="class-p">  </p></div>
+  <div class="execut"><p class="class-p"> </p></div>
+  </div>
+  <a href="" class="a">
+    <div class="resto" >
+    
+  <div class="Partida"><p> 17:55 </p></div>
+  <div class="traco1"><p></p>-------</div>
+  <div class="chegada"><p> 1h:30m</p></div>
+  <div class="traco2"><p></p>-------</div>
+  <div class="preco"><p>20:55</p></div>
+  <div class="local-partida"><br> <p> Luanda </p></div>
+  <div class="local-Ida"><br>  <p> Moxico </p></div>
+  <div class="hora-partida"><p> KWZ 15.500<br> </p></div>
+  <div class="button">
+  <button type="button" class="btn btn-info">Reservar</button></div>
+  </div></div>
+  <div class="class" id="class">
+    <div class="economica"><p class="class-p">  </p></div>
+    <div class="p-classe"><p class="class-p">  </p></div>
+    <div class="execut"><p class="class-p">  </p></div>
+    </div>
+    <a href="" class="a">
+      <div class="resto" style=";">
+      
+    <div class="Partida"><p> 16:55 </p></div>
+    <div class="traco1"><p></p>-------</div>
+    <div class="chegada"><p> 2:30m</p></div>
+    <div class="traco2"><p></p>-------</div>
+    <div class="preco"><p>15:55</p></div>
+    <div class="local-partida"><br> <p> Luanda </p></div>
+    <div class="local-Ida"><br>  <p> Saurimo </p></div>
+    <div class="hora-partida"><p> KWZ 19.000<br> </p></div>
+    <div class="button">
+    <button type="button" class="btn btn-info li">Reservar</button></div>
+    </div></div>
+    <div class="class" id="class">
+      <div class="economica"><p class="class-p"> Partida </p></div>
+      <div class="p-classe"><p class="class-p"> Partida </p></div>
+      <div class="execut"><p class="class-p"> Partida </p></div>
+      </div>
+      <a href="" class="a">
+        <div class="resto" style=";">
+        
+      <div class="Partida"><p> 17:05 </p></div>
+      <div class="traco1"><p></p>-------</div>
+      <div class="chegada"><p> 3:00h</p></div>
+      <div class="traco2"><p></p>-------</div>
+      <div class="preco"><p>18:55</p></div>
+      <div class="local-partida"><br> <p> Luanda </p></div>
+      <div class="local-Ida"><br>  <p> Lubango </p></div>
+      <div class="hora-partida"><p> KWZ 25.500<br> </p></div>
+      <div class="button">
+      <button type="button" class="btn btn-info">Reservar</button></div>
+      </div></div>
+      <div class="class" id="class">
+        <div class="economica"><p class="class-p"> Partida </p></div>
+        <div class="p-classe"><p class="class-p"> Partida </p></div>
+        <div class="execut"><p class="class-p"> Partida </p></div>
+        </div>
+        <a href="" class="a">
+          <div class="resto" style=";">
+          
+        <div class="Partida"><p> 14:55 </p></div>
+        <div class="traco1"><p></p>-------</div>
+        <div class="chegada"><p> 1:00h</p></div>
+        <div class="traco2"><p></p>-------</div>
+        <div class="preco"><p>21:55</p></div>
+        <div class="local-partida"><br> <p> Luanda </p></div>
+        <div class="local-Ida"><br>  <p> Benguela </p></div>
+        <div class="hora-partida"><p> KWZ 17.500<br> </p></div>
+        <div class="button">
+        <button type="button" class="btn btn-info">Reservar</button></div>
+        </div></div>
+        <div id="list"></div>
+
+  
+<footer class="footer">
+  <div class="container">
+    <div class="roww">
+      <div class="footer-col">
+        <h4>Sobre Nós</h4>
+        <ul>
+          <li><a href="#">Quem Somos</a></li>
+          <li><a href="#">Nossos Serviços</a></li>
+          <li><a href="#">Compromissos</a></li>
+          <li><a href="#">Politica e Privacidade</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Ajuda</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Envio De Mercadorias</a></li>
+          <li><a href="#">Horários</a></li>
+          <li><a href="#">Reembolso</a></li>
+          <li><a href="#">Opções De Pagamentos</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Descontos</h4>
+        <ul>
+          <li><a href="#">Descontos</a></li>
+          <li><a href="#">Vantagens</a></li>
+          <li><a href="#">shoes</a></li>
+          <li><a href="#">dress</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Consultar horários</h4>
+        <ul>
+          <li><a href="#">Preços</a></li>
+          <li><a href="#">Estações</a></li>
+          <li><a href="#">Próximos Comboios</a></li>
+          <li><a href="#">Avisos</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Reclamações </h4>
+        <div class="reclamacoes">
+          <a href="#"><img src="img/livro-reclamacoes-online.png" alt=""></a>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</footer>
+
+</a>
+</body></html>
